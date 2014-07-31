@@ -23,7 +23,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_DEVICE_FOLDER)/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     $(VENDOR_DEVICE_FOLDER)/lib/libnv.so:obj/lib/libnv.so \
-    $(VENDOR_DEVICE_FOLDER)/lib/liboncrpc.so:obj/lib/liboncrpc.so
+    $(VENDOR_DEVICE_FOLDER)/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+    $(VENDOR_DEVICE_FOLDER)/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
 # Audio
 PRODUCT_COPY_FILES += \
